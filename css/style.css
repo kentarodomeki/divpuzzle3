@@ -14,50 +14,35 @@ body {
 }
 
 .header-redbox {
+  position: relative;
   width: 400px;
   height: 100px;
   background-color: #ff0000;
 }
 
 .header-whitebox{
-  position: relative;
+  position: absolute;
   width: 160px;
   height: 60px;
   top: 20px;
   right: 20px;
-  left: 220px;
-  bottom: 20px; 
   background-color: #ffffff;
 }
 
-.header-purplebox1 {
-  position: absolute;
+.header-purplebox{
   float:left;
   width: 40px;
   height: 40px;
-  top: 10px;
-  left: 10px;
+  margin: 10px;
   background: #a9004b
 }
 
-.header-purplebox2 {
-  position: absolute;
-  float:left;
-  width: 40px;
-  height: 40px;
-  top: 10px;
-  left: 60px;
-  background: #a9004b
+.header-purplebox:first-child {
+  margin-right: 0px;
 }
 
-.header-purplebox3 {
-  position: absolute;
-  float:left;
-  width: 40px;
-  height: 40px;
-  top: 10px;
-  left: 110px;
-  background: #a9004b
+.header-purplebox:last-child {
+  margin-left: 0px;
 }
 
 .leftbox{
@@ -78,9 +63,7 @@ body {
 .orangeboxes{
   position: absolute;
   top: 40px;
-  right: 60px;
   left: 40px;
-  bottom:40px;
 }
 
 .orangebox{
